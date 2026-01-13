@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Form</title>
+    <link rel="stylesheet" href="./submit.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>User Details Form</h2>
+
+      <form id="userForm">
+        <!-- Name -->
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+
+        <!-- Age -->
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input type="number" id="age" placeholder="Enter your age" />
+        </div>
+
+        <!-- Destination -->
+        <div class="form-group">
+          <label for="destination">Destination</label>
+          <select id="destination">
+            <option value="">Select destination</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="manager">Manager</option>
+          </select>
+        </div>
+
+        <!-- Profile Pic -->
+        <div class="form-group">
+          <label for="profilePic">Profile Picture</label>
+          <input type="file" id="profilePic" accept="image/*" />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <!-- Card Box Container -->
+      <!-- <div class="card-container">
+    <div class="card">
+        <img src="" alt="Profile">
+        <h3>Samir Maharana</h3>
+        <p>Age: 27</p>
+        <p>Destination: </p>
+    </div>
+</div> -->
+    </div>
+
+    <script src="./submit.js"></script>
+  </body>
+</html>
