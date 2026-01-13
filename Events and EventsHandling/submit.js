@@ -38,4 +38,5 @@ form.addEventListener("submit",(dets)=>{
         inp.value = "";
     });
     
-})
+});
+// Samir
