@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="form-container">
+      <h2>Registration Form</h2>
+
+      <label>Name</label>
+      <input id="name" type="text" placeholder="Enter your name"/>
+
+      <label>Email</label>
+      <input id="email"  type="email" placeholder="Enter your email"/>
+      <p class="emailError"></p>
+
+      <label>Password</label>
+      <input id="password" type="password" placeholder="Enter your password"/>
+      <p class="passwordError"></p>
+
+      <label>Gender</label>
+      <select required>
+        <option value="">Select gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label>Message</label>
+      <textarea rows="4" placeholder="Write something..."></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
