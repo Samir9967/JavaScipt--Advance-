@@ -1,0 +1,1 @@
+// sessionStorage -> browser ke andar data temporarily store karta hai, means tab baand hua aur data delete/gayab ho gya 
