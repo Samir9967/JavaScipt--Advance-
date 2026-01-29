@@ -1,4 +1,5 @@
 // localStorage -> apke browser ke andar data store karna, jo ki browser baand hone par data delete nhi hoga
+// localStorage me 5Mb ka data store hota hai
 // to setItem -> localStorage.setItem("key","value")
 
 // localStorage.setItem("names","Samir Maharana");
@@ -19,4 +20,5 @@ localStorage.removeItem("names");
 
 // to update data -> same as setItem but key will be same and value should be different
 localStorage.setItem("lnames","I am a Developer");
+
 
